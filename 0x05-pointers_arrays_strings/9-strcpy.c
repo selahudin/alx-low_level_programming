@@ -8,9 +8,9 @@
  * Return: this return copy
  */
 
-void _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	char start = dest;
+	char *start = dest;
 
 	while (*src != '\0')
 	{
