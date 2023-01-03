@@ -10,9 +10,9 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	 int m = 0, e = 0, k= 0, a = 0;
+	 int m = 0, e = 0, k = 0, a = 0;
 
-	while (s[m] != '\0')	
+	while (s[m] != '\0')
 		m++;
 	while (accept[e] != '\0')
 		e++;
