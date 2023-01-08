@@ -11,19 +11,18 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i = 0;
+	int index = 0;
 
 	unsigned int sum1 = 0;
 
 	unsigned int sum2 = 0;
 
-	for (; i < size; i++)
+	while (index < size)
 	{
-		sum1 = sum1 + a[(size * i) + i];
-		sum2 = sum2 + a[(size * (i + 1)) - (i + 1)];
+		sum1 = sum1 + a[(size * index) + index];
+		sum2 = sum2 + a[(size * (index + 1)) - (index + 1)];
+		index++;
 	}
 
-	printf("The sum of the two diagonale of a square matrix is %d\n", sum1);
-	printf("The sum of the two diagonale of a square matrix is %d\n", sum2);
-
+	printf("%d, %d\n", sum1, sum2);
 }
