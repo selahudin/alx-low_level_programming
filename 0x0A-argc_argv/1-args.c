@@ -4,6 +4,7 @@
 /**
  * main - it is a program that prints the number of arguments passed into it.
  * @argc: it is an argument that will be count.
+ * @argv: it is an argument but we don't use it in this programe.
  *
  * Return: 0.
  */
