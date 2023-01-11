@@ -26,7 +26,6 @@ int main(int argc, char *argv[])
 			ptr = argv[i];
 			length = strlen(ptr);
 
-		
 			for (j = 0; j < length; j++)
 			{
 				if (isdigit(*(ptr + j)) == 0)
