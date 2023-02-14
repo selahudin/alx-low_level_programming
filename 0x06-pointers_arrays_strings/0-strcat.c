@@ -7,6 +7,7 @@
  * @src: string to be concatended upon
  *
  * Return: a pointer to the string
+ * and it points to the string.
  */
 
 char *_strcat(char *dest, char *src)
